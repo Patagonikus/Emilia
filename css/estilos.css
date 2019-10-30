@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700|Work+Sans&display=swap');
+
+ul{
+  font-family: "Raleway";
+  list-style-type: none;
+  padding-bottom: 15px;
+
+}
+
+ol{
+  font-family: "Raleway";
+  padding-bottom: 15px;
+
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+h2{
+  font-family: "work sans";
+  padding-top: 100px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+}
+
+h1{
+  padding-top: 10px;
+  font-size: 55px;
+
+}
+
+.fondo_transparente{
+  background-color: rgba(255,255,255,0.3);
+}
+
+.lista_horizontal{
+  display: inline;
+  float: right;
+  
+}
+
+.top{
+  color:grey;
+}
+
+#body_home{
+  background-image: url("../img/emilia-home.jpg");
+
+  background-position: right top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Open Sans";
+}
+
+#body_about{
+  background-image: url("../img/emilia-about.jpg");
+  background-position: right top;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  font-family: "Open Sans";
+}
+
+#body_music{
+  background-image: url("../img/emilia-music-top.jpg");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "Open Sans";
+}
+
+.color_about{
+  color: rgb(100, 160, 160);
+}
